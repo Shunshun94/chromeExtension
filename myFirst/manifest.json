@@ -10,6 +10,7 @@
     "action": {
         "default_popup": "ui/popup.html"
     },
+    "options_page": "ui/options.html",
 
     "permissions": ["storage", "activeTab", "scripting"]
 
