@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "My first extension",
+    "version": "0.1",
+    "description": "私の最初のえくすてんしょん",
+
+    "background": {
+        "service_worker": "js/bg.js"
+    },
+    "action": {
+        "default_popup": "ui/popup.html"
+    },
+
+    "permissions": ["storage", "activeTab", "scripting"]
+
+}
