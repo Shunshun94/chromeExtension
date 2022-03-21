@@ -1,0 +1,10 @@
+{
+  "name": "ccfolia_custom_css",
+  "version": "1",
+  "manifest_version": 3,
+  "description": "ココフォリアのCSSをカスタムする",
+  "content_scripts": [{
+    "matches": ["https://ccfolia.com/rooms/KO3EQElhW"],
+    "js": ["script.js"]
+  }]
+}
