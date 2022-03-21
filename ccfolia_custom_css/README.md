@@ -1,8 +1,8 @@
-# shunshun94.github.io_redden
+# ccfolia custom css
 
 ## 何するの
 
-https://shunshun94.github.io/ で始まるページにアクセスすると背景色を赤くする。
+ココフォリアの特定の部屋にアクセスするとCSSで部屋を改造する。
 
 ## どうやって動いているの
 
