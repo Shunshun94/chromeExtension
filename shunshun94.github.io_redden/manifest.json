@@ -1,10 +1,10 @@
 {
-  "name": "shunshun94.github.io_redden",
+  "name": "ccfolia_custom_css",
   "version": "1",
   "manifest_version": 3,
-  "description": "shunshun94.github.io の背景色を赤く変えちゃう",
+  "description": "ココフォリアのCSSをカスタムする",
   "content_scripts": [{
-    "matches": ["https://shunshun94.github.io/*"],
+    "matches": ["https://ccfolia.com/rooms/KO3EQElhW"],
     "js": ["script.js"]
   }]
 }
