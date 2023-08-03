@@ -4,7 +4,7 @@
   "manifest_version": 3,
   "description": "ゆとシート2の能力値作成で前後の作成ログへのリンクをページに追加してくれるなにか",
   "content_scripts": [{
-    "matches": ["https://yutorize.2-d.jp/ytsheet/sw2.5/?mode=making&num=*"],
+    "matches": ["https://yutorize.2-d.jp/ytsheet/sw2.5/?mode=making&num=*", "https://yutorize.2-d.jp/ytsheet/sw2.5/?&mode=making&num=*"],
     "js": ["script.js"]
   }]
 }
