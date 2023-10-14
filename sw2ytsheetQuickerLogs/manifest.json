@@ -1,10 +1,15 @@
 {
   "name": "ゆとシートで能力値作成の前後のログをパラッとアクセスするやつ",
-  "version": "1",
+  "author": "Shunshun94",
+  "homepage_url": "https://github.com/Shunshun94/chromeExtension/tree/main/sw2ytsheetQuickerLogs",
+  "version": "1.0.0",
+  "icons": {
+    "128": "128.png"
+  },
   "manifest_version": 3,
-  "description": "ゆとシート2の能力値作成で前後の作成ログへのリンクをページに追加してくれるなにか",
+  "description": "ゆとらいず工房公式 ゆとシート2 for SW2.5 の能力値作成画面に前後の作成ログへのリンクを追加する拡張機能です。",
   "content_scripts": [{
-    "matches": ["https://yutorize.2-d.jp/ytsheet/sw2.5/?mode=making&num=*", "https://yutorize.2-d.jp/ytsheet/sw2.5/?&mode=making&num=*"],
+    "matches": ["https://yutorize.2-d.jp/ytsheet/sw2.5/?mode=making&num=*", "https://yutorize.2-d.jp/ytsheet/sw2.0/?mode=making&num=*"],
     "js": ["script.js"]
   }]
 }
