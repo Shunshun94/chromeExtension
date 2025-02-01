@@ -9,7 +9,7 @@
   "manifest_version": 3,
   "description": "ゆとらいず工房公式 ゆとシート2 for SW2.5 の能力値作成画面に前後の作成ログへのリンクを追加する拡張機能です。",
   "content_scripts": [{
-    "matches": ["https://yutorize.2-d.jp/ytsheet/sw2.5/?mode=making&num=*", "https://yutorize.2-d.jp/ytsheet/sw2.0/?mode=making&num=*"],
+    "matches": ["https://yutorize.2-d.jp/ytsheet/sw2.5/?mode=making&num=*", "https://yutorize.2-d.jp/ytsheet/sw2.0/?mode=making&num=*","https://yutorize.2-d.jp/ytsheet/sw2.5/?&mode=making&num=*", "https://yutorize.2-d.jp/ytsheet/sw2.0/?&mode=making&num=*"],
     "js": ["script.js"]
   }]
 }
